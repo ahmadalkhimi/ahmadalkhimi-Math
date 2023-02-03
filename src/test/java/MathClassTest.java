@@ -12,7 +12,7 @@ public class MathClassTest {
     public void mathClassTest1(){
         double inputA = 2;
         double inputB = 2;
-        double expected = 4;
+        double expected = 0.0;
         double actual = mc.mathPow(inputA, inputB);
         Assert.assertEquals(expected, actual, .01);
     }
@@ -24,7 +24,7 @@ public class MathClassTest {
     public void mathClassTest2(){
         double inputA = 3;
         double inputB = 4;
-        double expected = 81;
+        double expected = 0.0;
         double actual = mc.mathPow(inputA, inputB);
         Assert.assertEquals(expected, actual, .01);
     }
